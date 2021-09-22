@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+    <!-- Bootstrap cssS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous"> 
+
+
+    <!---My css Links-------------------->
+    <link rel="stylesheet" type="text/css" href="asset/css/style.css">
+    <link rel="stylesheet" type="text/css" href="asset/css/ff.css">
+    <!---FONTAWESOME CDN LINK ---->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="icon" type="image/png" href="favicon.png">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+   
+    <!-- JavaScript -->
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+  
+    <!---JQUERY CDN LINK ---->
+    <script src="asset/js/jquery-3.6.0.min.js"></script>
+    <script src="asset/js/owl.carousel.min.js"></script>
+    
+    <!---AOS ANIMATION  CDN LINK ---->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+   
+    <!------Owl carousel link ------------->
+    <link rel="stylesheet" type="text/css" href="asset/css/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="asset/css/owl.theme.green.css">
+    
+    <title> Softtech Square </title>
+
+
+
+  </head>
+  <body>
+    
+
+    <!-------Top navbar on scroll--------------------
+    -----------------------------------------
+    ---------------------------------------------------->
+    <nav class="navbar navbar-expand-lg px-5 justify-content-between mobmenu" id="color1">
+      <!---Our Logo--->
+      <div class="grop d-flex align-items-baseline">
+        <a href="#" class="navbar-brand logo"> <img src="asset/images/logo.png"> </a>
+      </div>
+      <div class="section">
+        <!--- Our Menu --->
+        <ul class="menu">
+          <li><a href="index.html" class="active nav-link"> HOME </a></li>
+          <li><a href="portfolio.html" class="nav-link"> PORTFOLIO </a></li>
+          <li class="dropdown"><a href="#" class="dropdown-toggle nav-link"> SERVICES </a>
+          <ul class="dropdown-menu">
+            <li class="dropdown-item"><a href="web.html"class="nav-link">
+            Website Development</a> </li>
+            <li class="dropdown-item"><a href="mobile.html"class="nav-link">
+            Mobile Application Development</a> </li>
+            <li class="dropdown-item"><a href="desktop.html"class="nav-link">
+            Desktop Application Development</a> </li>
+            <li class="dropdown-item"><a href="game.html"class="nav-link">
+            Game Development</a> </li>
+            <li class="dropdown-item"><a href="seo.html"class="nav-link">
+            Search Engine Optimization (SEO)    </a> </li>
+            
+            <li class="dropdown-item"><a href="marketing.html"class="nav-link">
+            Digital marketing  </a> </li>
+            <li class="dropdown-item"><a href="graphic.html"class="nav-link">
+            Graphic Designing</a> </li>
+            <li class="dropdown-item"><a href="content.html"class="nav-link">
+            Content Writing</a> </li>
+          </ul>
+        </li>
+        <li class="nav-item"><a href="career.html"class="nav-link" > CAREERS </a></li>
+        <li class="nav-item"><a href="contact.html" > CONTACT </a></li>
+      </ul>
+    </div>
+    
+    
+    
+    <div class="mymenu text-center">
+      <button type="button" class="toggle-btn btn btn-light"> <i class="fa fa-align-right"></i> </button>
+    </div>
+  </nav>
+  <div class="rightside" id="color2">
+    <i class="fa fa-times-circle closebtn"></i>
+    
+    
+    <!--- Our Menu --->
+    <ul class="rightmenu mt-5 navbar-nav">
+      <li><a href="index.html" class="active nav-link"> HOME </a></li>
+      <li><a href="portfolio.html" class="nav-link"> PORTFOLIO </a></li>
+      <li class="dropdown"><a href="#" class="dropdown-toggle nav-link"> SERVICES </a>
+      <ul class="dropdown-menu">
+        <li class="dropdown-item"><a href="web.html"class="nav-link">
+        Website Development</a> </li>
+        <li class="dropdown-item"><a href="mobile.html"class="nav-link">
+        Mobile Application Development</a> </li>
+        <li class="dropdown-item"><a href="desktop.html"class="nav-link">
+        Desktop Application Development</a> </li>
+        <li class="dropdown-item"><a href="game.html"class="nav-link">
+        Game Development</a> </li>
+        <li class="dropdown-item"><a href="seo.html"class="nav-link">
+        Search Engine Optimization (SEO)    </a> </li>
+        
+        <li class="dropdown-item"><a href="marketing.html"class="nav-link">
+        Digital marketing  </a> </li>
+        <li class="dropdown-item"><a href="graphic.html"class="nav-link">
+        Graphic Designing</a> </li>
+        <li class="dropdown-item"><a href="content.html"class="nav-link">
+        Content Writing</a> </li>
+      </ul>
+    </li>
+    <li class="nav-item"><a href="career.html"class="nav-link" > CAREERS </a></li>
+    <li class="nav-item"><a href="contact.html" class="nav-link" > CONTACT </a></li>
+  </ul>
+</div>
+<!--
+/// RIGHT SIDE SECTION EfNDS HERE --------------------
+------------------------------------------------------
+---------------------------------------------------------- -->
+<header class="header" id="color3">
+  <div class="navbar px-3 d-flex">
+    <!---Our Logo--->
+    <div class="grop d-flex align-items-baseline">
+      <a href="#" class="navbar-brand logo"> <img src="asset/images/logo.png"> </a>
+    </div>
+    <div class="section">
+      <!--- Our Menu --->
+      <ul class="menu">
+        <li><a href="index.html" class="active nav-link"> HOME </a></li>
+        <li><a href="portfolio.html" class="nav-link"> PORTFOLIO </a></li>
+        <li class="dropdown"><a href="#" class="dropdown-toggle nav-link"> SERVICES </a>
+        <ul class="dropdown-menu">
+          <li class="dropdown-item"><a href="web.html"class="nav-link">
+          Website Development</a> </li>
+          <li class="dropdown-item"><a href="mobile.html"class="nav-link">
+          Mobile Application Development</a> </li>
+          <li class="dropdown-item"><a href="desktop.html"class="nav-link">
+          Desktop Application Development</a> </li>
+          <li class="dropdown-item"><a href="game.html"class="nav-link">
+          Game Development</a> </li>
+          <li class="dropdown-item"><a href="seo.html"class="nav-link">
+          Search Engine Optimization (SEO)    </a> </li>
+          
+          <li class="dropdown-item"><a href="marketing.html"class="nav-link">
+          Digital marketing  </a> </li>
+          <li class="dropdown-item"><a href="graphic.html"class="nav-link">
+          Graphic Designing</a> </li>
+          <li class="dropdown-item"><a href="content.html"class="nav-link">
+          Content Writing</a> </li>
+        </ul>
+      </li>
+      <li class="nav-item"><a href="career.html"class="nav-link" > CAREERS </a></li>
+      <li class="nav-item"><a href="contact.html" > CONTACT </a></li>
+    </ul>
+  </div>
+  
+  
+  
+  
+  <div class="mymenu text-center">
+    <button type="button" class="toggle-btn btn btn-light"> <i class="fa fa-align-right"></i> </button>
+  </div>
+</div>
+<!--- Company Top-Heading ----->
+<div class="container-md  heading" id="headertext">
+  <div class="row  justify-content-between  align-items-center">
+    <div class="col-lg-7 col-xl-6 col-12 col-sm-12 col-md-6 headingg">
+      <h1 class="title" data-aos="fade-up" data-aos-once="true" data-aos-duration="1600"> thinking the high quality software </h1>
+      <p class="subtitle" data-aos="fade-left" data-aos-once="true" data-aos-duration="1600"> softech square, a software development company that creates cost-effective custom solution based on the technical expertise </p>
+    </div>
+    <div class="col-lg-5 col-xl-6 col-12 col-sm-6 mx-auto col-md-5  header-img text-center">
+      
+      <img src="asset/images/header-img.png" class="topimg img-fluid">
+    </div>
+  </div>
+</div>
+</div>
+</header><!-- /header -->
+<!-- /*TOP HEADER AND MENU SECTION ENDS HERE-------
+------------------------------------
+------------------------------------------*/
+-->
+<!-- /*TOP HEADER AND MENU SECTION ENDS HERE-------
+------------------------------------
+------------------------------------------*/
+-->
+<div class="container-fluid    service">
+<div class="text-center aatext">
+  <span data-aos="fade-up" data-aos-once="true" data-aos-duration="1600">  WHAT WE DO</span>
+  <h2 data-aos="fade-up" data-aos-once="true" data-aos-duration="1600"> Our Services </h2>
+</div>
+<div class="container-fluid">
+  <div class="wrapper">
+    
+    <div class="wrapperbox" data-aos="fade-up" data-aos-once="true" data-aos-duration="1600">
+      <img src="asset/images/service-img1.png">
+      <h3>Web Development</h3>
+      <p>The designing of a website is not confined to the creation of the best UI, graphics or the designs. Its more than that. It is the first impression of your business that encompass...</p>
+      <button type="button" class="btn btn-link mt-3"> Read More </button>
+    </div>
+    
+    <div class="wrapperbox" data-aos="fade-down" data-aos-once="true" data-aos-duration="1600">
+      <img src="asset/images/service-img2.png">
+      <h3>Mobile App Development</h3>
+      <p>Indeed a poor idea, the world is moving towards smart phones with an unmeasured speed, extend your operations on Mobile apps today!Our creative lorem lorrem lorem lorem lo</p>
+      <button type="button" class="btn btn-link mt-3"> Read More </button>
+    </div>
+    <div class="wrapperbox" data-aos="fade-left" data-aos-once="true" data-aos-duration="1600">
+      <img src="asset/images/service-img3.png">
+      <h3>Desktop App Development</h3>
+      <p>We cater amazing and robust ERP solutions to skyrocket your business prospects. Our diverse and top-notch ERP services are going to transform your business .....</p>
+      <button type="button" class="btn btn-link mt-3"> Read More </button>
+    </div>
+    <div class="wrapperbox" data-aos="fade-right" data-aos-once="true" data-aos-duration="1600">
+      <img src="asset/images/service-img4.png">
+      <h3>Games Development</h3>
+      <p>Our game content development services are a great fit for operators looking to expand their land-based casino business online. When porting games from...</p>
+      <button type="button" class="btn btn-link mt-3"> Read More </button>
+    </div>
+  </div>
+  <!--
+  // THE FIRST  ROW SECTION ENDS HERE fffffffffffffff-----
+  -------------------------------------- -->
+  <div class="wrapper">
+    
+    <div class="wrapperbox" data-aos="fade-up" data-aos-once="true" data-aos-duration="1600">
+      <img src="asset/images/service-img5.png">
+      <h3>SEO</h3>
+      <p>softechsquare offer comprehensive services and streamlined SEO . Our campaigns are results-oriented and focused on gaining good ROI (Return on Investment)...</p>
+      <button type="button" class="btn btn-link mt-3"> Read More </button>
+    </div>
+    
+    <div class="wrapperbox" data-aos="fade-down" data-aos-once="true" data-aos-duration="1600">
+      <img src="asset/images/service-img6.png">
+      <h3>Graphic Designing</h3>
+      <p>If you are worried about your new business then no need to worry because softechsquare solution has ways out for all of your problems. Our Graphic Designers experienced.....</p>
+      <button type="button" class="btn btn-link mt-3"> Read More </button>
+    </div>
+    <div class="wrapperbox" data-aos="fade-left" data-aos-once="true" data-aos-duration="1600">
+      <img src="asset/images/service-img7.png">
+      <h3>Digital Marketing</h3>
+      <p>Modern businesses need a strong digital marketing strategy. They can’t afford to fall behind competitors or get lost in the noise. We have a team of experts who can get your business...</p>
+      <button type="button" class="btn btn-link mt-3"> Read More </button>
+    </div>
+    <div class="wrapperbox" data-aos="fade-right" data-aos-once="true" data-aos-duration="1600">
+      <img src="asset/images/service-img8.png">
+      <h3>Content Writing</h3>
+      <p>In this alluring world, to stand out from everything else, you need to have the edge. Your product should be distinct from your competitors.For that, not only must it be informative, but it should possess....</p>
+      <button type="button" class="btn btn-link mt-3"> Read More </button>
+    </div>
+  </div>
+  <!--
+  // THE FIRST  ROW SECTION ENDS HERE -----
+  -------------------------------------- -->
+</div>
+</div>
+<!---- ABout section --------
+---------------------------------->
+<div class="container-fluid about" id="color4">
+<div class="container-md pt-2">
+  <h5 class="text-center pt-5 text-white bold" data-aos="zoom-in" data-aos-once="true" data-aos-duration="1600">  ABOUT US </h5>
+  <h1 class="text-center pt-3 animatetext"data-aos="zoom-in" data-aos-once="true" data-aos-duration="1600">  <span id="typed3"></span> </h1>
+  <h5 class="text-center text-white pt-4 abouttext" data-aos="fade-up" data-aos-once="true" data-aos-duration="1600">
+  We're Building Modern And High Software</h5>
+  <p class="text-white pt-2 px-5 text-center abouttext">Softech Square Software Solutions (Pvt) Ltd is a digital business consultancy and software development IT company that provides state-of-the-art services to businesses that are endeavoring to become digitally revolutionized.
+  We are helping local and international brands to unravel complex issues that arise during their digital development journey. Since 2015, we have been recognized as the best software company in Peshawar KPK.</p>
+</div>
+<div class="container-md p-5   maincounter ">
+  
+  <h3 class="text-center"> Company Profile </h3>
+
+  <!---Counter ----->
+  <div class="row counterbox align-items-center mt-5 p-3">
+    <div class="col-lg-3 col-12  col-sm-6 col-md-6 text-center">
+      <h2 class="count"> 8 </h2>
+      <p> YEAR OF BUISNESS </p>
+    </div>
+    <div class="col-lg-3 col-12  col-sm-6 col-md-6 text-center">
+      <h2 class="count"> 250 </h2>
+      <p> PROJECT DONE </p>
+    </div>
+    <div class="col-lg-3 col-12  col-sm-6 col-md-6 text-center">
+      <h2 class="count"> 150 </h2>
+      <p> CLIENTS </p>
+    </div>
+    
+    <div class="col-lg-3 col-12  col-sm-6 col-md-6 text-center">
+      <h2 class="count"> 5537 </h2>
+      <p> PEOPLE VISIT </p>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+<!-- /*TOP HEADER AND MENU SECTION ENDS HERE-------
+------------------------------------
+------------------------------------------*/
+-->
+<div class="container-md  pt-5  workbox">
+<h1 class="text-center">How It Works </h1>
+<div class="row  pt-3f  justify-content-between align-items-center">
+<div class="col-lg-6  col-10 mx-auto mt-5 teambox" data-aos="zoom-in-left" data-aos-once="true" data-aos-duration="1600">
+  <h2> Create An Identity For Your Business </h2>
+  <p>Branding is what people say about you when you are not in the room. So, creating a unique identity for your brand is quite essential for your success. We’ll help you outshine.
+  *Your brand identity is a vital tool for establishing who you are and how your customers relate to you</p>
+  <a href="#" class="nav-link"> Read More </a>
+</div>
+<div class="col-lg-4 col-10 mx-auto mt-5 teambox" data-aos="fade-up" data-aos-once="true" data-aos-duration="1600">
+  <img src="asset/images/team-img1.png" class="img-fluid">
+</div>
+</div>
+<!--
+// THE FIRST FLEXBOX ROdWs SECTION ENDS HERE -----
+--------------------------------------
+-------------------------------------------- -->
+<div class="row mt-5 justify-content-between align-items-center">
+<div class="col-lg-4  col-10 mx-auto mt-5 teambox" data-aos="zoom-in-right" data-aos-once="true" data-aos-duration="1600">
+  <img src="asset/images/team-img1.png" class="img-fluid">
+</div>
+<div class="col-lg-6 col-10 mx-auto mt-5 teambox" data-aos="fade-right" data-aos-once="true" data-aos-duration="1600">
+  <h2> Create An Irresistible Offer </h2>
+  <p>Branding is what people say about you when you are not in the room. So, creating a unique identity for your brand is quite essential for your success. We’ll help you outshine.
+  *Your brand identity is a vital tool for establishing who you are and how your customers relate to you</p>
+  <a href="#" class="nav-link"> Read More </a>
+</div>
+</div>
+</div>
+<!--
+// THE FIRST FLEXBOX ROWs sSECTION ENDS HERE -----
+--------------------------------------
+-------------------------------------------- -->
+<div class="container-fluid p-3 carousell " id="color5">
+<h1 class="text-white pt-3 text-center "> Our Team </h1>
+<div class="myclientbox owl-carousel owl-theme mt-5">
+
+<div class="item text-center  w-100">
+ <center> <img src="asset/images/qasim.jpeg" class="teampic" style="border-radius: 100px;height: 220px; width: 220px;">
+  <h4 class="pt-3 text-center"> Qasim Ahmad</h4>
+  <p class="text-center">  React Developer </p> </center>
+</div>
+
+<div class="item">
+ <center> <img src="asset/images/amjad.jfif" class="teampic" style="border-radius: 100px;">
+  <h4 class="pt-3"> Muhammad Amjad</h4>
+  <p>  Mobile App Developer </p></center>
+</div>
+
+<div class="item">
+<center>  <img src="asset/images/sami.jfif" class="teampic"  style="border-radius: 100px;">
+  <h4 class="pt-3"> Sami </h4>
+  <p> Flutter Developer</p></center>
+</div>
+
+<div class="item text-center  w-100">
+ <center> <img src="asset/images/naveed.jfif" class="teampic" style="border-radius: 100px;height: 220px; width: 220px;">
+  <h4 class="pt-3 text-center"> Naveed </h4>
+  <p class="text-center">  Full Stack Developer </p></center>
+</div>
+
+
+<div class="item text-center  w-100">
+ <center> <img src="asset/images/waseem.jfif" class="teampic" style="border-radius: 100px;height: 220px; width: 220px;">
+  <h4 class="pt-3 text-center"> Waseem Khan </h4>
+  <p class="text-center">  Web Developer </p></center>
+</div>
+
+<div class="item text-center  w-100">
+  <center><img src="asset/images/bilalwahab.jfif" class="teampic" style="border-radius: 100px;height: 220px; width: 220px;">
+  <h4 class="pt-3 text-center"> Bilal Wahab</h4>
+  <p class="text-center"> Graphic Designer </p></center>
+</div>
+
+<div class="item text-center  w-100">
+ <center> <img src="asset/images/hamza.jfif" class="teampic" style="border-radius: 100px;height: 220px; width: 220px;">
+  <h4 class="pt-3 text-center"> Hamza Hanif </h4>
+  <p class="text-center">  Mobile App Developer </p></center>
+</div>
+
+<div class="item text-center  w-100">
+  <img src="asset/images/ghalib.jfif" class="teampic" style="border-radius: 100px;height: 220px; width: 220px;">
+  <h4 class="pt-3 text-center"> Ghalib Aziz  </h4>
+  <p class="text-center">  Php | Laravel Developer </p>
+</div>
+
+<div class="item text-center  w-100">
+<center>  <img src="asset/images/kamran.jfif" class="teampic" style="border-radius: 100px;height: 220px; width: 220px;">
+  <h4 class="pt-3 text-center"> Kamran Khan </h4>
+  <p class="text-center">  Web Developer </p></center>
+</div>
+
+<div class="item text-center  w-100">
+ <center> <img src="asset/images/idress.jfif" class="teampic" style="border-radius: 100px;height: 220px; width: 220px;">
+  <h4 class="pt-3 text-center"> Idress Ahmad </h4>
+  <p class="text-center">  Mobile App Developer </p></center>
+</div>
+
+
+<div class="item text-center  w-100">
+ <center> <img src="asset/images/zebkhan.jfif" class="teampic" style="border-radius: 100px;height: 220px; width: 220px;">
+  <h4 class="pt-3 text-center"> Zeb Khan </h4>
+  <p class="text-center">  Web Developer </p></center>
+</div>
+
+
+
+
+
+<div class="item text-center  w-100">
+<center>  <img src="asset/images/mypicc.jfif" class="" style="border-radius: 100px;  width: 200px;">
+  <h4 class="pt-3 text-center"> Hamza Khan</h4>
+  <p class="text-center">  Front-end Developer </p> </center>
+</div>
+
+
+<div class="item">
+ <center> <img src="asset/images/img2.png" class="teampic">
+  <h4 class="pt-3"> Malik Zada Hamza </h4>
+  <p> Wordpress Developer</p></center>
+</div>
+<div class="item">
+ <center> <img src="asset/images/img3.png" class="teampic">
+  <h4 class="pt-3"> Marwan Khalid </h4>
+  <p> Mobile App Developer</p></center>
+</div>
+<div class="item">
+  <center><img src="asset/images/img4.png" class="teampic">
+  <h4 class="pt-3"> Mubashir Daud </h4>
+  <p> Graphic Designer </p></center>
+</div>
+
+
+</div>
+</div>
+<!--00 0slider carousel section ends here 0000000000
+----------------------------------------
+----------------------------------------------------->
+
+
+<div class="container-md mt-1 pt-5">
+<div class="row align-items-center mt-3">
+<div class="col-lg-6 ceo" data-aos="flip-up" data-aos-once="true" data-aos-duration="1600">
+  <h3 class="text-primary">CEO Message </h3>
+  <p>It is indeed a matter of great satisfaction that by the grace of Almighty Allah, Softechsquare (Pvt) Ltd.  over a period of time has shown tremendous progress in the field of Software development. It has designed and developed of variety of state of the art software solutions to cater to every need of business users. We bow our heads before Almighty Allah to bless us with enough wisdom and strength to make  more and more progressive and user-friendly organization. </p>
+  <h3 class="text-primary">Waleed Ahmad </h3>
+  <span>CEO/Co-Founder </span>
+</div>
+<div class="col-lg-6 text-center mt-sm-5">
+  <img src="asset/images/ceoimg.png"  class="ceoimg" data-aos="zoom-in" data-aos-once="true" data-aos-duration="1600">
+</div>
+</div>
+</div>
+<!-- ///Client slider section starts herer
+-------------------------------------- -->
+
+ <!-- TESTIMONIALS -->
+ <div class="container-fluid client">
+<div class="container-md">
+<h1 class="text-center pt-3" data-aos="zoom-in" data-aos-duration="1600" data-aos-once="true"> What Our Client Say</h1>
+
+
+<section class="testimonials">
+  <div class="container">
+
+      <div class="row">
+        <div class="col-sm-12">
+          <div id="customers-testimonials" class="owl-carousel">
+
+            <!--TESTIMONIAL 1 -->
+            <div class="item">
+              <div class="shadow-effect">
+                <img class="img-circle" src="asset/images/team4.jpg" alt="" style="height: 160px;width: 160px;border-radius: 100px;margin: 0 auto;">
+                <p class="pt-4">Working with softech square was AMAZING! very knowledgeable, and provides excellent guidance in assisting you with meeting your SEO goals. We're in the process of securing him for our 2020-2021 Digital Marketing Services. Thanks softech square for a job well done.</p>
+              </div>
+              <div class="testimonial-name"> Nawaz</div>
+            </div>
+            <!--END OF TESTIMONIAL 1 -->
+            <!--TESTIMONIAL 2 -->
+            <div class="item">
+              <div class="shadow-effect">
+                <img class="img-circle" src="asset/images/team3.jpg" alt="" style="height: 160px;width: 160px;border-radius: 100px;margin: 0 auto;">
+                <p class="pt-4">
+The company was absolutely amazing. I will be developing my app further, and I will definitely choose the same company!</p>
+              </div>
+              <div class="testimonial-name">Haris Khan </div>
+            </div>
+            <!--END OF TESTIMONIAL 2 -->
+            <!--TESTIMONIAL 3 -->
+           <div class="item">
+              <div class="shadow-effect">
+             <center>   <img class="img-circle" src="asset/images/team1.jpg" alt="" style="width: 170px;height: 150px;"> </center>
+                <p class="pt-4">
+ Incredible website!!! Extremely punctual and easy to work with. They even provided video tutorials following completion. One of the best websites I have ever seen. Absolutely recommend!</p>
+              </div>
+              <div class="testimonial-name"> Maryam </div>
+            </div>
+            <!--END OF TESTIMONIAL 3 -->
+            <!--TESTIMONIAL 4 -->
+            <div class="item">
+              <div class="shadow-effect">
+             <center>   <img class="img-circle" src="asset/images/team2.jpg" alt=""  style="width: 170px;height: 150px;"> </center>
+                <p class="pt-4"> Very professional fast and always ready to solve any issue. Highly recommended</p>
+              </div>
+              <div class="testimonial-name"> Hamza </div>
+            </div>
+            <!--END OF TESTIMONIAL 4 -->
+            <!--TESTIMONIAL 5 -->
+            <div class="item">
+              <div class="shadow-effect text-center">
+            <center>    <img class="img-circle" src="http://themes.audemedia.com/html/goodgrowth/images/testimonial3.jpg" style="width: 150px;height: 150px;"> </center>
+                <p class="pt-4">
+Logo design turned out great! I was sent 3 concepts and one of them really nailed what I wanted. Very quick and very responses to any changes I needed.
+</p>
+              </div>
+              <div class="testimonial-name"> Nida Khan </div>
+            </div>
+            <!--END OF TffESTIMONIAL 5 -->
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+<!--     END OF TESTIMONIALS
+ -->
+</div>
+</div>
+
+
+
+
+</div>
+</div>
+<!--00 CLIENT REVIEW  carousel section ends here 0000000000
+----------------------------------------
+----------------------------------------------------->
+<div class="container-fluid clientslider" style="margin-top: -8px;">
+<h1 class="text-center pt-1"> Our Clients </h1>
+<div class="client_carousel mt-5 pt-4 owl-carousel owl-theme">
+<div class="item 
+" style="width:200px">
+<img src="asset/images/cdg.jfif" class="client_img">
+</div>
+<div class="item" style="width:200px">
+<img src="asset/images/center.jfif" class="client_img">
+</div>
+<div class="item" style="width:200px">
+<img src="asset/images/civil.jfif" style="height: 200px;width: 160px;" class="client_img">
+</div>
+
+<div class="item" style="width:200px">
+<img src="asset/images/c2.png" class="client_img">
+</div>
+<div class="item" style="width:200px">
+<img src="asset/images/c3.png" class="client_img">
+</div>
+<div class="item" style="width:200px">
+<img src="asset/images/c4.png" class="client_img">
+</div>
+<div class="item" style="width:200px">
+<img src="asset/images/c5.png" class="client_img">
+</div>
+<div class="item" style="width:200px">
+<img src="asset/images/c6.png" class="client_img">
+</div>
+<div class="item" style="width:200px">
+<img src="asset/images/c7.png" class="client_img">
+</div>
+<div class="item" style="width:200px">
+<img src="asset/images/c8.png" class="client_img">
+</div>
+<div class="item" style="width:200px">
+<img src="asset/images/c9.png" class="client_img">
+</div>
+<div class="item" style="width:200px">
+<img src="asset/images/c10.png" class="client_img">
+</div>
+<div class="item" style="width:200px">
+<img src="asset/images/c11.png" class="client_img">
+</div>
+<div class="item" style="width:200px">
+<img src="asset/images/c12.png" class="client_img">
+</div>
+
+
+
+</div>
+
+</div>
+
+<div class="container-fluid text-center p-5 app">
+<h4 class="bold text-white" data-aos="fade-up" data-aos-duration="1600" data-aos-once="true">AWARD-WINNING SOFTWARE</h4>
+<h1 class="pt-2" data-aos="zoom-in" data-aos-duration="1600" data-aos-once="true">We’ll Develop Any Application For You</h1>
+<p class="pt-2" data-aos="fade-up" data-aos-duration="1600" data-aos-once="true">It’s time to increase your profit and achieve better results for your business! Browse our <br> apps or contact us directly to enhance your business experience.</p>
+<div class="btn-group bottom-btn mt-2">
+<button type="button" class="btn1 text-white" data-aos="zoom-in" data-aos-duration="1600" data-aos-once="true"> View More </button>
+<a href="contact.html" class="btn2 nav-link pt-3"  data-aos="zoom-in" data-aos-duration="1600" data-aos-once="true"> Contact Us </a>
+</div>
+</div>
+<div class="container-fluid   text-center w-100 map" style="margin-top: 30px;">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3307.67099261175!2d71.54325811455395!3d34.000983627878405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38d917bf1e05455d%3A0x9bb0d74b7b5d5600!2sDeans%20Shopping%20Mall%20(Deans%20Trade%20Center%20Peshawar)!5e0!3m2!1sen!2sus!4v1622707182816!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</div>
+<!---Footer section starts here----------------
+------------------------------------------------>
+<div class="container-fluid  footer" id="color7" >
+<div class="row justify-content-between text-white align-items-center mt-3">
+<div class="col-lg-6 col-12 mt-5 col-sm-12 col-md-12 mx-sm-auto text-left">
+<h2> Subscribe to Get Notified! </h2>
+<p>Sign up to receive updates and fresh news from us. </p>
+<form class="form-inline d-flex align-items-center ">
+<input type="email" class="form-control email" placeholder="Enter your email" autocomplete="off" >
+<input type="submit" class="submit-btn" >
+</form>
+</div>
+<div class="col-lg-4 col-12 mt-5 col-sm-12 col-md-12 mx-sm-auto">
+<h2> Time to Get Started </h2>
+<p>Improve your business results with eXsoft! </p>
+<div class="btn-group bottom-btn">
+<a href="testi.html" class="btn2 nav-link pt-3 text-center"> Testimonial  </a>
+<a href="contact.html" class="btn1 text-white nav-link pt-3"> Contact Us </a>
+</div>
+</div>
+</div>
+<!-- // YThe top section edns herer0---- -->
+<div class="row   pt-3 align-items-center justify-content-between text-white">
+
+<div class="col-lg-3  col-6 col-md-6 mx-auto mt-5 ">
+<center> <img src="asset/images/logo.png" class="img-fluid mx-auto"> </center>
+<p class="pt-3 text-center"> Soft Tech is the leading provider of the best software for business.</p>
+</div>
+<div class="col-lg-3  col-6 col-md-6 mx-auto mt-5 ">
+<h3>About</h3>
+<ul class="navbar-nav">
+<a href="portfolio.html" class="nav-link text-white"> Portfolio </a>
+<a href="portfolio.html" class="nav-link text-white"> Career </a>
+<a href="portfolio.html" class="nav-link text-white"> Contact Us </a>
+</ul>
+</div>
+
+<div class="col-lg-4  col-6 col-md-6 mx-auto mt-5 ">
+<h3>Contact</h3>
+<p class="pt-3"> waleedahmad111.wa@gmail.com <br> +923340990009</p>
+
+<a href="https://www.facebook.com/softechsquare" class="nav-link">   <button type="button" class="btn btn-outline-light m-4 mx-auto mt-3" > <i  class="fa fa-facebook"></i> </button>
+ </a>
+ 
+</div>
+</div>
+
+</div>
+</div>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+
+<script>
+$('.count').counterUp({
+delay: 12,
+time: 1000
+});
+</script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script src="asset/js/main.js"></script>
+<script src="asset/js/typed.js"></script>
+<script>
+var typed3 = new Typed('#typed3', {
+strings: ['Best Software Company','Attractive Website Design',
+'Modern Mobile Application', 'Utillity Desktop Application', 'Search Engine Optimization'],
+typeSpeed: 50,
+backSpeed: 50,
+loop: true
+});
+
+typed3.style.color = 'green';
+</script>
+
+<!-- JavaScript -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+AOS.init();
+</script>
+
+<!-- Option 1: Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdeflivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+<script src="asset/js/main.js"></script>
+
+<script>
+
+$(document).ready(function(){
+$('.myclientbox').owlCarousel({
+loop:true,
+margin:100,
+nav:false,
+loop:true,
+responsive:{
+0:{
+items:2
+},
+600:{
+items:3
+},
+1000:{
+items:4
+}
+}
+})
+})
+/*team carousel ends */
+$(document).ready(function(){
+$('.client_carousel').owlCarousel({
+margin:120,
+loop:false,
+nav:false,
+autoWidth:true,
+autoplay:true,
+autoplayTimeout : 3000,
+items:3
+})
+
+$('.client_review').owlCarousel({
+loop:true,
+margin:280,
+nav:true,
+responsive:{
+0:{
+items:3
+},
+600:{
+items:4
+},
+1000:{
+items:4
+}
+}
+})
+})
+</script>
+
+
+</body>
+</html>
